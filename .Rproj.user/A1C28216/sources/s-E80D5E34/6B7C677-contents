@@ -1,0 +1,3 @@
+useDynLib(CreateDataframeFromMap, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
